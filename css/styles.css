@@ -1,74 +1,100 @@
 /*** Add your styles here **/
+
+
 :root{
-    --fuentePpal:sans-serif;
-    --fuenteCrusiva:arial;
-    --celeste:#3DB2FF;
-    --beige:#FFEDDA;
-    --anaranjado:#FFB830;
-    --rojo:#FF2442;
-    --blanco:#ffffff;
-    --negro:#000000;
-    --gris:#EEEEEE;
-    --verde:#70AF85;
+    --fuentePpal: 'Urbanist', sans-serif;
+    --fuenteCursiva: 'Allison', cursive;
+    --blanco:#FFFFFF;
+    --negro: #000000;
+    --gridOscuro:#2C394B;
+    --azul:#035397;
+    --verde:#055052;
+    --colorado:#CD113B;
+    --verdeSuave:#CDF0EA;
+    --lavandaSuave:#F4F6FF;
+    --naranja:#F05A28;
+    --cholate:#865439;
 }
+
 
 body{
-    background-color: var(--gris);
+    background-color: var(--lavandaSuave);
 }
 
+.encabezado {
+    font-size: 1.2rem;
+    font-family: var(--fuenteCursiva);
 
+}
 
-/*SOCIALES*/
+/*
+.encabezado  span{
+    font-family: var(--fuenteCursiva);
+    text-transform: uppercase;
+    color: var(--colorado);
+
+}
+*/
+
 .sociales ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .sociales ul li{
     position: relative;
     display: inline-block;
 }
 
+/* .sociales ul li a::before{ */
 .sociales ul li a{
     font-family: var(--fuentePpal);
     display: inline-block;
     vertical-align: top;
     padding: 0.5rem;
     font-size: 2.5rem;
-    color: var(--negro);
+    color: var(--cholate);
+}
+.sociales ul li a:hover{
+    color: var(--verde);
 }
 
-/*LOGO*/
-
-.logo-color{
-    color: var(--negro);
-    text-decoration: none;
-    font-family: var(--fuentePpal);
-}
-.logo-color:hover{
-    color: var(--negro);
-    text-decoration: none;
-}
-
-/*BARRA DE NAVEGACION*/
 .navegacion{
-    background-color: var(--negro);
+    background-color: var(--azul);
+}
+.navbar-light .navbar-toggler{
+    background-color: var(--lavandaSuave);
 }
 
-.navbar-light  .navbar-toggler{
-    background-color: var(--blanco);
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color: var(--lavandaSuave);
+    text-transform: uppercase;
 }
 
 .nav-link{
-    color: var(--blanco);
+    color: var(--lavandaSuave);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.2rem;
-    transition: background-color .5s ease-in-out;
-    font-family: var(--fuentePpal);
+    transition: background-color .4s  ease-in-out;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .nav-link:hover{
-    background-color: var(--blanco);
-    color: var(--negro);
+    background-color: var(--lavandaSuave);
+    color: var(--azul);
 }
+
+
+.logo-color{
+    color: var(--colorado);
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
+.logo-color:hover{
+    color: var(--gridOscuro);
+    text-decoration: none;
+}
+
