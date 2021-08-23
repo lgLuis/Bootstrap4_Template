@@ -1,1 +1,22 @@
 /*** Add your styles here **/
+:root{
+    --fuentePpal:sans-serif;
+    --fuenteCrusiva:arial;
+    --celeste:#3DB2FF;
+    --beige:#FFEDDA;
+    --anaranjado:#FFB830;
+    --rojo:#FF2442;
+    --blanco:#ffffff;
+    --negro:#000000;
+    --gris:#EEEEEE;
+    --verde:#70AF85;
+}
+
+body{
+    background-color: var(--gris);
+}
+
+
+.navegacion{
+    background-color: var(--verde);
+}
