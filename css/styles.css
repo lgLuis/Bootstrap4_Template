@@ -17,6 +17,58 @@ body{
 }
 
 
+
+/*SOCIALES*/
+.sociales ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+
+.sociales ul li a{
+    font-family: var(--fuentePpal);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    color: var(--negro);
+}
+
+/*LOGO*/
+
+.logo-color{
+    color: var(--negro);
+    text-decoration: none;
+    font-family: var(--fuentePpal);
+}
+.logo-color:hover{
+    color: var(--negro);
+    text-decoration: none;
+}
+
+/*BARRA DE NAVEGACION*/
 .navegacion{
-    background-color: var(--verde);
+    background-color: var(--negro);
+}
+
+.navbar-light  .navbar-toggler{
+    background-color: var(--blanco);
+}
+
+.nav-link{
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: background-color .5s ease-in-out;
+    font-family: var(--fuentePpal);
+}
+
+.nav-link:hover{
+    background-color: var(--blanco);
+    color: var(--negro);
 }
