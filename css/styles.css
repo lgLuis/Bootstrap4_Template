@@ -87,7 +87,6 @@ body{
     color: var(--azul);
 }
 
-
 .logo-color{
     color: var(--colorado);
     text-decoration: none;
@@ -98,3 +97,48 @@ body{
     text-decoration: none;
 }
 
+.footer p{
+    font-family: var(--fuenteCursiva);
+    font-size: 1.9rem;
+}
+
+/* img */
+
+.borde{
+    border: 1px solid var(--azul);
+}
+.hero{
+    position: relative;
+}
+
+.hero h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    color: var(--azul);
+    background-color: var(--lavandaSuave);
+    border: 1px solid var(--azul);
+}
+
+.hero h2:hover{
+    color: var(--lavandaSuave);
+    background-color: var(--azul);
+    border: 1px solid var(--lavandaSuave);
+
+}
+
+.imagen-cel{
+    position: absolute;
+    bottom: -4rem;
+    right: 0;
+    color: var(--azul);
+    background-color: var(--lavandaSuave);
+    border: 1px solid var(--azul);
+}
+
+.imagen-cel:hover{
+    color: var(--lavandaSuave);
+    background-color: var(--azul);
+    border: 1px solid var(--lavandaSuave);
+
+}
