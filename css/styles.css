@@ -142,3 +142,9 @@ body{
     border: 1px solid var(--lavandaSuave);
 
 }
+
+.contenido-principal p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+
+}
