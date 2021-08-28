@@ -22,19 +22,19 @@ body{
 }
 
 .encabezado {
-    font-size: 1.2rem;
-    font-family: var(--fuenteCursiva);
+    font-size: 2.3rem;
+    font-family: var(--fuentePpal);
 
 }
 
-/*
+
 .encabezado  span{
+    font-size: 4rem;
     font-family: var(--fuenteCursiva);
     text-transform: uppercase;
     color: var(--colorado);
-
 }
-*/
+
 
 .sociales ul{
     list-style: none;
@@ -113,7 +113,7 @@ body{
 
 .hero h2{
     position: absolute;
-    bottom: 2rem;
+    /* bottom: 2rem; */
     right: 0;
     color: var(--azul);
     background-color: var(--lavandaSuave);
