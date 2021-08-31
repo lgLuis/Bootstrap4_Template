@@ -148,3 +148,14 @@ body{
     line-height: 2.2rem;
 
 }
+
+#servicios .card-header{
+    background-color: var(--verdeSuave);
+}
+
+#servicios .card-header .color{
+    color: var(--azul);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
