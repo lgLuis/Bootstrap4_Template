@@ -164,3 +164,21 @@ body{
     background-color:var(--blanco);
     color: var(--azul);
 }
+
+.cupon{
+    border: 2px dashed var(--azul);
+}
+
+.boton-color{
+    background-color: var(--azul);
+    padding: 1rem;
+    border: none;
+}
+
+.boton-color:hover{
+    background-color: var(--azul);
+}
+
+.cursiva{
+    font-family: var(--fuentePpal);
+}
