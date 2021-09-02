@@ -74,22 +74,39 @@
                             <h2 class="d-block d-md-none text-center imagen-cel">
                                 CONTACTO - PANTALLA CHICA
                             </h2>
-                            <form action="" class="p-5 mt-5 formulario-contacto border">
+                            <form action="" class="p-5 mt-5 formulario-contacto border needs-validation" novalidate>
                                 <div class="form-group">
                                     <label for="nombre">Nombre:</label>
                                     <input type="text" class="form-control" id="nombre"
-                                    placeholder="Tú nombre...">
+                                    placeholder="Tú nombre..." required>
+                                    <div class="invalid-feedback">
+                                        Nombre obligatorio.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
 
                                 </div>
                                 <div class="form-group">
                                     <label for="email">E-mail:</label>
                                     <input type="email" class="form-control" id="nombre"
-                                    placeholder="Tú e-mail...">
-
+                                    placeholder="Tú e-mail..." required>
+                                    <div class="invalid-feedback">
+                                        Email obligatorio.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="mensaje">Mensaje:</label>
-                                    <textarea id="mensaje" cols="88" rows="5"></textarea>
+                                    <textarea id="mensaje" cols="88" rows="5" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Mensaje obligatorio.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
                                 </div>
                                 <input type="submit" class="btn btn-primary  text-uppercase boton-color" value="enviar">
                         </main>
